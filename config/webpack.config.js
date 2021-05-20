@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { TsConfigPathsPlugin } = require('awesome-typescript-loader');
 
 module.exports = {
-    entry: path.join(__dirname, '../srcs/index.tsx'),
+    entry: path.join(__dirname, '../srcs/app.tsx'),
     target: 'web',
     mode: 'development',
 
