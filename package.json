@@ -1,10 +1,10 @@
 {
-  "name": "ReactPscine",
+  "name": "react_pscine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "webpack serve --config ./config/webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,32 @@
   "bugs": {
     "url": "https://github.com/ReactPiscine/ReactPscine/issues"
   },
-  "homepage": "https://github.com/ReactPiscine/ReactPscine#readme"
+  "homepage": "https://github.com/ReactPiscine/ReactPscine#readme",
+  "dependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.7",
+    "@typescript-eslint/eslint-plugin": "^4.24.0",
+    "@typescript-eslint/parser": "^4.24.0",
+    "awesome-typescript-loader": "^5.2.1",
+    "dotenv": "^9.0.2",
+    "eslint": "^7.26.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.23.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.6",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
